@@ -358,8 +358,9 @@ h6,
 }
 
 .screenshot-carousel .owl-item img {
-    max-width: 100%; /* 讓圖片不超過容器大小 */
-    height: auto; /* 自動維持比例 */
+    width: auto; /* 確保圖片不會超過原始大小 */
+    max-width: 100%; /* 讓圖片在小螢幕上自適應 */
+    height: auto; /* 維持原始比例 */
 }
 
 
