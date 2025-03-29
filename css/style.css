@@ -1,4 +1,16 @@
 /********** Template CSS **********/
+
+/* 將關鍵的 CSS 內聯到這裡 */
+body {
+    font-family: 'Heebo', sans-serif;
+}
+/*.navbar {*/
+/*    background-color: #fff;*/
+/*}*/
+/* 其他關鍵樣式 */
+
+
+
 :root {
     --primary: #4294E3;
     --secondary: #8F12FD;
@@ -332,7 +344,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../img/screenshot-frame.png) center center no-repeat;
+    background: url(../img/screenshot-frame.webp) center center no-repeat;
     background-size: 253px 500px;
     z-index: 1;
 }
@@ -428,9 +440,9 @@ h6,
     margin-top: 6rem;
     padding-top: 9rem;
     background:
-        url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
-        url(../img/bg-top.png),
+        url(../img/bg-circle.webp),
+        url(../img/bg-triangle.webp),
+        url(../img/bg-top.webp),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px bottom 0px,
